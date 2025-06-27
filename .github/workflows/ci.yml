@@ -2,7 +2,7 @@ name: Test Repo CI
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   build-and-test:
