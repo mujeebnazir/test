@@ -14,6 +14,10 @@ app.get('/', (req, res) => {
   res.send('Hello, TEST SERVER!');    
 });
 
+app.get("/new", (req, res) => {
+  res.send("This is a new route!");
+});
+
 app.listen(process.env.PORT, () => {
   console.log(`Server is running on http://localhost:${process.env.PORT}`);
 });
